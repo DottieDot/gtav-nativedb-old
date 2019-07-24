@@ -1,0 +1,1 @@
+p2 often set to 1000.0 in the decompiled scripts.

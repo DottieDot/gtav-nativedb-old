@@ -1,0 +1,5 @@
+
+.layout-header {
+	display: inline-grid;
+	grid-area: header;
+}

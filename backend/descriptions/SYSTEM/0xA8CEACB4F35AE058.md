@@ -1,0 +1,1 @@
+Calculates the magnitude of a vector but does not perform Sqrt operations. (Its way faster)

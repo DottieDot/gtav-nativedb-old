@@ -1,0 +1,1 @@
+Returns false if amount > wallet balance or daily transfer limit has been hit.

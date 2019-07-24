@@ -1,0 +1,1 @@
+Returns if a script has been loaded into the game. Used to see if a script was loaded after requesting.

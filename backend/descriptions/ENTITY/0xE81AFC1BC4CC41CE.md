@@ -1,0 +1,1 @@
+Get how much of the entity is submerged.  1.0f is whole entity.

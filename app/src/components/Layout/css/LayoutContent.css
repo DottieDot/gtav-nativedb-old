@@ -1,0 +1,7 @@
+
+.layout-content {
+	display: inline-grid;
+	grid-area: content;
+
+	overflow-y: scroll;
+}

@@ -1,0 +1,1 @@
+time in ms to transition from fully blurred to normal

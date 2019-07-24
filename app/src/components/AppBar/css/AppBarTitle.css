@@ -1,0 +1,11 @@
+
+.app-bar-title {
+	display: inline-grid;
+	grid-area: title;
+
+	color: var(--dark);
+	font-size: 26px;
+	font-weight: bold;
+	align-self: center;
+}
+

@@ -1,0 +1,92 @@
+
+.btn {
+	position: relative;
+	border: none;
+	margin: 0;
+	background: none;
+
+	border-radius: 5px;
+	padding: 8px;
+	min-width: 80px;
+	margin-right: 15px;
+
+	cursor: pointer;
+}
+
+.btn.contained.primary, .btn.contained {
+	background: var(--primary);
+	border: var(--primary) 2px solid;
+	color: #fff;
+	transition: all .2s linear;
+	box-shadow: 3px 3px 6px 0px var(--shadow-color);
+}
+
+.btn.contained.primary:hover, .btn.contained:hover {
+	background: var(--primary-dark);
+}
+
+.btn.contained.secondary {
+	background: var(--secondary);
+	border-color: var(--secondary);
+}
+
+.btn.contained.secondary:hover {
+	background: var(--secondary-dark);
+}
+
+.btn.contained.danger {
+	background: var(--danger);
+	border-color: var(--danger);
+}
+
+.btn.contained.danger:hover {
+	background: var(--danger-dark);
+}
+
+.btn.contained.note {
+	background: var(--note);
+	border-color: var(--note);
+	color: var(--darker);
+}
+
+.btn.contained.note:hover {
+	background: var(--note-dark);
+}
+
+.btn.outline.primary, .btn.outlined {
+	border: var(--primary) 2px solid;
+	color: var(--primary);
+}
+
+.btn.outlined.secondary {
+	border-color: var(--secondary);
+	color: var(--secondary);
+}
+
+.btn.outlined.danger {
+	border-color: var(--danger);
+	color: var(--danger);
+}
+
+.btn.outlined.note {
+	border-color: var(--note);
+	color: var(--note);
+}
+
+.btn.text.primary, .btn.text {
+	color: var(--primary);
+}
+
+.btn.text.secondary {
+	color: var(--secondary);
+}
+
+.btn.text.danger {
+	color: var(--danger);
+}
+
+.btn.text.note {
+	color: var(--note);
+}
+
+

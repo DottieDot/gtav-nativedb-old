@@ -1,0 +1,1 @@
+explosionType: See ADD_EXPLOSION.

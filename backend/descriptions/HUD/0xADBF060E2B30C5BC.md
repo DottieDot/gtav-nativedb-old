@@ -1,0 +1,1 @@
+Checks if the specified gxt has loaded into the passed slot.

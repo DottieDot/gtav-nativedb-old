@@ -1,0 +1,1 @@
+Returns the Blip handle of given Entity.

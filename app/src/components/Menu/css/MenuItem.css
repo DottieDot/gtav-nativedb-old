@@ -1,0 +1,25 @@
+.menu-item {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	user-select: none;
+}
+
+.menu.horizontal .menu-item {
+	border-bottom: 2px solid rgba(0,0,0,0);
+	height: 100%;
+	padding: 0px 10px;
+
+	transition: background-color .2s linear;
+}
+
+.menu.horizontal .menu-item:not(.active):hover {
+	border-color: var(--primary-dark);
+}
+
+.menu.horizontal .menu-item.active {
+	background: var(--primary);
+}

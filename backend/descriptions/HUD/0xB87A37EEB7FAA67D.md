@@ -1,0 +1,8 @@
+Used to be known as _SET_TEXT_ENTRY_2
+
+void ShowSubtitle(char *text)
+{
+  BEGIN_TEXT_COMMAND_PRINT("STRING");
+ ADD_TEXT_COMPONENT_SUBSTRING_PLAYER_NAME(text);
+   END_TEXT_COMMAND_PRINT(2000, 1);
+}

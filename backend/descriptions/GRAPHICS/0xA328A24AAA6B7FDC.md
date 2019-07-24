@@ -1,0 +1,1 @@
+time in ms to transition to fully blurred screen

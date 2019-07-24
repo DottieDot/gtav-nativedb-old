@@ -1,0 +1,1 @@
+Seems to get the hash of the vehicle's currently installed horn? 

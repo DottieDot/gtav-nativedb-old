@@ -1,0 +1,17 @@
+
+.checkbox-container {
+	margin-right: 15px;
+}
+
+.checkbox  {
+	display: none;
+}
+
+.checkbox-items {
+	user-select: none;
+	cursor: pointer;
+}
+
+.checkbox-box {
+	margin-right: 5px;
+}

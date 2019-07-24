@@ -1,0 +1,1 @@
+Get the closest vehicle node to a given position, unknown1 = 3.0, unknown2 = 0

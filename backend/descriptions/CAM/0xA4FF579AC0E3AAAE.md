@@ -1,0 +1,6 @@
+Returns the type of camera:
+
+0 - Third Person Close
+1 - Third Person Mid
+2 - Third Person Far
+4 - First Person

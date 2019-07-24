@@ -1,0 +1,1 @@
+Deletes the specified entity, then sets the handle pointed to by the pointer to NULL.

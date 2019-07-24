@@ -1,0 +1,1 @@
+x, y, z: offset in world coords from some entity.

@@ -1,0 +1,1 @@
+Returns true if the coords are colliding with the outdoors, and false if they collide with an interior.

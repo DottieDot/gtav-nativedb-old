@@ -1,0 +1,1 @@
+Adds up after viewing multiple R* scripts. I believe that the duration is in miliseconds.

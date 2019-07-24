@@ -1,0 +1,21 @@
+
+.app-bar {
+	display: grid;
+
+	grid-template-columns: auto 1fr auto auto;
+	grid-template-areas: 'title misc buttons actions';
+	
+	padding: 0px 20px;
+
+	height: 60px;
+	box-shadow: 0px 4px 6px 0px rgba(0,0,0,.16);
+
+	cursor: default;
+
+	z-index: 10;
+}
+
+.app-bar.sticky {
+	top: 0;
+	position: sticky;
+}

@@ -1,0 +1,1 @@
+Returns false if the vehicle has the FLAG_NO_RESPRAY flag set.

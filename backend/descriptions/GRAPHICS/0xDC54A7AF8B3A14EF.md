@@ -1,0 +1,1 @@
+This function is hard-coded to always return 96.

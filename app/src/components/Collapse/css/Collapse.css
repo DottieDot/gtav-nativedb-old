@@ -1,0 +1,51 @@
+
+.collapse {
+	margin-bottom: 15px;
+
+	grid-template-rows: auto 1fr;
+	grid-template-areas:
+		'header'
+		'content'
+}
+
+.collapse.normal {
+	box-shadow: 5px 5px 6px 0px var(--shadow-color);
+}
+
+.collapse-title {
+	padding: 5px 10px;
+	cursor: pointer;
+	user-select: none;
+	font-weight: 600;
+	grid-area: header;
+	display: inline-grid;
+	width: 100%;
+}
+
+.collapse.normal.expanded > .collapse-title {
+	box-shadow: 0px 2px 5px 0px var(--shadow-color);
+	z-index: 2;
+}
+
+.collapse-content {
+	display: none;
+	grid-area: content;
+	width: 100%;
+}
+
+.collapse.expanded > .collapse-content {
+	display: block;
+}
+
+.collapse.dense {
+	margin-bottom: 0;
+}
+
+.collapse.dense > .collapse-title {
+	padding: 0;
+}
+
+.collapse.dense > .collapse-content {
+	margin: 5px 0px 10px 0px;
+	box-shadow: 5px 5px 6px 0px var(--shadow-color);
+}

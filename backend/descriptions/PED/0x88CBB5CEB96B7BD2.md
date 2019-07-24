@@ -1,0 +1,1 @@
+p1 is usually 0 in the scripts. action is either 0 or a pointer to "DEFAULT_ACTION".

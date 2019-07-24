@@ -1,0 +1,1 @@
+modifier's min value is 0.1

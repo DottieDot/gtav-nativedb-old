@@ -1,0 +1,16 @@
+
+.native-type {
+	color: var(--primary)
+}
+
+.native-param {
+	color: var(--dark)
+}
+
+.native-params > span:last-child > .native-param > span {
+	display: none;
+}
+
+.native-hashes {
+	color: var(--success-dark);	
+}

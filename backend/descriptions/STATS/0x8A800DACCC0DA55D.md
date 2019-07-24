@@ -1,0 +1,1 @@
+Disallows CEventNetworkStuntPerformed to be triggered.

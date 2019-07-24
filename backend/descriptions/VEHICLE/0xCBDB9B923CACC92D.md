@@ -1,0 +1,1 @@
+Gets the position of the cargobob hook, in world coords.
