@@ -24,7 +24,7 @@ const importNatives = async(url) => {
 	const data = await response.json()
 
 	for (const nsname in data) {
-		if (nsname !== 'SYSTEM') return
+		//if (nsname !== 'SYSTEM') return
 
 		const namespace = data[nsname]
 		try {
@@ -52,7 +52,9 @@ const importNatives = async(url) => {
 			}
 			catch {}
 		}
-	}
+  }
+  
+  console.log('DONE')
 }
 importNatives()
 

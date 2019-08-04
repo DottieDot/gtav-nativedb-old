@@ -70,7 +70,8 @@ const createNativeString = async(native, {useTypedefs, usePascalCase, exportHash
 	}
 
 	const name = usePascalCase ? snakeCaseToPascalCaes(native.name) : native.name
-	res += `\t${returnType} ${name}(${tmp.join(', ')});`
+  res += `\t${returnType} ${name}(${tmp.join(', ')}) `
+  res += `{ invoke<${returnType.replace('void', useTypedefs ? 'Void' : 'int')}>(${[native.hash, ...native.params.map(v => v.name)].join(', ')}); }`
 
 	if (exportHashes) {
 		res += ` // ${native.hash} ${native.jhash} b${native.build}`
@@ -106,9 +107,9 @@ const createHeaderFile = async(params) => {
 }
 
 app.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next();
+  res.header("Access-Control-Allow-Origin", "*")
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept")
+  next()
 });
 
 const Init = async() => {

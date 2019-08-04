@@ -45,7 +45,7 @@ export default class Natives extends React.Component {
 		if (this.state.loading) {
 			return (
 				<div style={{margin: '20px'}}>
-					<LoadingIcon color="dark" size="30" /> 
+					<LoadingIcon color="dark" size="50" /> 
 				</div>
 			)
 		} 
